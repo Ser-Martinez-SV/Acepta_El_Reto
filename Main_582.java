@@ -1,7 +1,9 @@
 public class Main_582 {
     static java.util.Scanner sc;
     public static void casoDePrueba() {
+        
         String campanas = sc.nextLine();
+        
         if (campanas.isEmpty()){
             System.out.println("MARISA NARANJO");
         }else {
@@ -18,8 +20,10 @@ public class Main_582 {
     
     public static void main(String[] args) {
         sc = new java.util.Scanner(System.in);
+        
         int nPruebas = sc.nextInt();
         sc.nextLine();
+        
         for (int i = 0; i < nPruebas; i++) {
             casoDePrueba();
         }
